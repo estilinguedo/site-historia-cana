@@ -1,0 +1,220 @@
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #3F2210;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #3F2210;
+}
+body{
+    background-color: #F2E9BD;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    background-color: #D9B97E;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    color: #3F2210;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    color: #3F2210;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    color: #3F2210;
+}
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    color: #3F2210;
+    }
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#secao1 {
+    display: flex;
+    justify-content: end;
+}
+#secao2 {
+    margin-top: -200px;
+    padding: 20px;
+}
+#secao3 {
+    margin-left: 140px;
+}
+#secao4 {
+    margin-top: -940px;
+    display: flex;
+    justify-content: end;
+}
+#secao5 {
+    margin-top: -20px;
+    display: flex;
+    justify-content: end;
+}
+#secao6 {
+    margin-top: -20px;
+    display: flex;
+    justify-content: end;
+}
+#secao7 {
+    margin-top: -20px;
+    display: flex;
+    justify-content: end;
+}
+#secao8 {
+    background-color: #D9B97E;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 4vw;
+    height: 50vh;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    background-color: #D9B97E;
+    border-radius: 2vh 0 0 2vh;
+    opacity: 40%;
+    margin-bottom: 10vh;
+}
+nav:hover{
+    transition: 1s;
+    opacity: 100%;
+}
+nav a{
+    text-align: center;
+    color: #3F2210;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #FFF;
+    transition: 1s;
+    text-decoration: underline;
+}
+body{
+    margin: 0;
+}
+figcaption{
+    font-size: 1.25vw;
+    color: #3F2210;
+    background-color: #D9B97E;
+    text-align: center;
+    padding: 0.5vw;
+}
+figure{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 1350px) {
+    body {
+        width: 100%;
+        flex-direction: column;
+        background-color: #F2E9BD;
+    }
+    a{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        color: #3F2210;
+    }
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        color: #3F2210;
+    }
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        background-color: #D9B97E;
+        display: flex;
+        justify-content: center;
+        color: #3F2210;
+    }
+    h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        color: #3F2210;
+    }
+    h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        color: #3F2210;
+    }
+    h4 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        color: #3F2210;
+    }
+    ul {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    #secao1 {
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+    }
+    #secao3 {
+        display: flex;
+        justify-content: center;
+    }
+    #secao4 {
+        display: flex;
+        justify-content: center;
+    }
+    #secao5 {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    #secao6 {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    #secao7 {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    #secao8 {
+        background-color: #D9B97E;
+    }
+}
+@media (max-aspect-ratio: 1/1){
+    nav{
+        flex-direction: row;
+        width: 100vw;
+        height: 6vh;
+        bottom: 0;
+        top: unset;
+        border-radius: 2vh 2vh 0 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
