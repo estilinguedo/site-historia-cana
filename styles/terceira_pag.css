@@ -175,9 +175,11 @@ figure{
         justify-content: center;
     }
     #secao1 {
-        margin-top: 2%;
         display: flex;
         justify-content: center;
+    }
+    #secao2 {
+        margin-top: 1px;
     }
     #secao3 {
         display: flex;
@@ -186,6 +188,7 @@ figure{
     #secao4 {
         display: flex;
         justify-content: center;
+        margin-top: 50px;
     }
     #secao5 {
         margin-top: 15px;
